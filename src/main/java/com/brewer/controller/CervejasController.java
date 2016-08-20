@@ -7,8 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class CervejasController {
 
-    @GetMapping("cerveja/novo")
+    @RequestMapping("cerveja/novo")
     public String novo(){
         return "cerveja/CadastroCerveja";
     }
+
 }
