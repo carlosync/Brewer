@@ -4,7 +4,7 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="'layout/LayoutDefault'">
 <head>
-
+    <link rel="stylesheet" type="text/css" href="/static/layout/stylesheets/vendors.min.css"/>
 </head>
 <body>
 
@@ -40,7 +40,7 @@
 
             <div class="row">
                 <div class="col-sm-2  form-group">
-                    <label for="sku">SKU</label>
+                    <label for="sku">Sku</label>
                     <input id="sku" type="text" class="form-control"/>
                 </div>
 
@@ -75,7 +75,7 @@
                 <div class="col-sm-3  form-group">
                     <label for="teorAlcolico">Teor Alcólico</label>
                     <div class="input-group">
-                        <input id="teorAlcolico" type="text" class="form-control"/>
+                        <input id="teorAlcolico" type="text" class="form-control js-decimal"/>
                         <div class="input-group-addon">%</div>
                     </div>
                 </div>
@@ -101,21 +101,21 @@
                     <label for="preco">Preço</label>
                     <div class="input-group">
                         <div class="input-group-addon">R$</div>
-                        <input id="preco" type="text" class="form-control"/>
+                        <input id="preco" type="text" class="form-control js-decimal"/>
                     </div>
                 </div>
 
                 <div class="col-sm-3  form-group">
                     <label for="comissao">Comissão</label>
                     <div class="input-group">
-                        <input id="comissao" type="text" class="form-control"/>
+                        <input id="comissao" type="text" class="form-control js-decimal"/>
                         <div class="input-group-addon">%</div>
                     </div>
                 </div>
 
                 <div class="col-sm-3  form-group">
                     <label for="estoque">Estoque</label>
-                    <input id="estoque" type="text" class="form-control"/>
+                    <input id="estoque" type="text" class="form-control js-plain"/>
                 </div>
             </div>
 
@@ -124,7 +124,7 @@
                     Salvar
                     <i class="fa fa-check"></i>
                 </button>
-                <a href="CadastroCerveja.html" class="btn btn-default">Cancelar</a>
+                <a href="/cerveja/novo" class="btn btn-default">Cancelar</a>
             </div>
 
         </form>
