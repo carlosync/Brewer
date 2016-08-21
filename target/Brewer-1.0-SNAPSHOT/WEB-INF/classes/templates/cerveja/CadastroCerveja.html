@@ -58,10 +58,17 @@
             <div class="row">
                 <div class="col-sm-3  form-group">
                     <label for="estilo">Estilo</label>
-                    <select id="estilo" class="form-control">
-                        <option value="">Selecione um estilo</option>
-                        <option value="1">Pear Lager</option>
-                    </select>
+                    <div class="bw-field-action">
+                        <select id="estilo" class="form-control">
+                            <option value="">Selecione um estilo</option>
+                            <option value="1">Pear Lager</option>
+                        </select>
+                        <div class="bw-field-action__icon">
+                            <a href="#" data-toggle="modal" data-target="#estiloModal">
+                                <i class="glyphicon glyphicon-plus-sign bw-glyphicon-large"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-sm-3  form-group">
@@ -129,6 +136,7 @@
 
         </form>
     </div>
+    <div th:replace="modal/EstiloModal" th:fragment="modal"></div>
 </section>
 
 </body>
