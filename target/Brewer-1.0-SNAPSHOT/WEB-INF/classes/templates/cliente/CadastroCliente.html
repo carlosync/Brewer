@@ -37,11 +37,13 @@
         <!--<i class="fa  fa-exclamation-circle"></i> Já existe um produto com o nome informado.-->
         <!--</div>-->
 
-        <form method="POST" th:object="${cerveja}" class="form-vertical  js-form-loading">
+        <form method="POST" th:object="${cliente}" class="form-vertical  js-form-loading">
 
-            <div class="form-group">
-                <label for="nome">Nome</label>
-                <input id="nome" type="text" class="form-control"/>
+            <div class="row">
+                <div class="form-group col-sm-12">
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" class="form-control"/>
+                </div>
             </div>
 
             <div class="row">
