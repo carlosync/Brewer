@@ -4,7 +4,8 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="'layout/LayoutDefault'">
 <head>
-    <link rel="stylesheet" type="text/css" href="/static/layout/stylesheets/vendors.min.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="/static/layout/stylesheets/vendors.min.css"/>-->
+    <link rel="stylesheet" type="text/css" th:href="@{/style/brewer.css}"/>
     <title>Brewer - Cadastro de cerveja</title>
 </head>
 <body>
@@ -37,7 +38,7 @@
         <!--<i class="fa  fa-exclamation-circle"></i> Já existe um produto com o nome informado.-->
         <!--</div>-->
 
-        <form method="POST" th:object="${cerveja}" class="form-vertical  js-form-loading">
+        <form method="POST" th:object="${cerveja}" class="form-vertical  js-form-loading" th:action="@{/cerveja/novo}">
 
             <div class="row">
                 <div class="col-sm-2  form-group">
@@ -47,7 +48,10 @@
 
                 <div class="col-sm-10  form-group">
                     <label for="nome">Nome</label>
-                    <input id="nome" type="text" class="form-control"/>
+                    <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-beer"></i></div>
+                        <input id="nome" type="text" class="form-control"/>
+                    </div>
                 </div>
             </div>
 
@@ -60,7 +64,7 @@
                 <div class="col-sm-3  form-group">
                     <label for="estilo">Estilo</label>
                     <div class="bw-field-action">
-                        <select id="estilo" class="form-control">
+                        <select id="estilo" class="form-control selectpicker show-tick" data-live-search="true">
                             <option value="">Selecione um estilo</option>
                             <option value="1">Pear Lager</option>
                         </select>
@@ -74,9 +78,12 @@
 
                 <div class="col-sm-3  form-group">
                     <label for="sabor">Sabor</label>
-                    <select id="sabor" class="form-control">
+                    <select id="sabor" class="form-control selectpicker show-tick" data-live-search="true">
                         <option value="">Selecione um sabor</option>
                         <option value="1">Adocicada</option>
+                        <option value="2">Frutas delicadas</option>
+                        <option value="3">Malte acentuado</option>
+                        <option value="4">Lupulagem aparenteo</option>
                     </select>
                 </div>
 
@@ -128,7 +135,7 @@
             </div>
 
             <div class="form-group">
-                <button class="btn btn-primary" type="submit">
+                <button class="btn btn-success" type="submit">
                     Salvar
                     <i class="fa fa-check"></i>
                 </button>

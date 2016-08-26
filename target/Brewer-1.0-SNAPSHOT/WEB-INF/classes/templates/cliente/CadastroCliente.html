@@ -5,6 +5,7 @@
       layout:decorate="'layout/LayoutDefault'">
 <head>
     <title>Brewer - Cadastro de cliente</title>
+    <!--<link rel="stylesheet" type="text/css" href="/static/layout/stylesheets/vendors.min.css"/>-->
 </head>
 <body>
 
@@ -41,7 +42,10 @@
             <div class="row">
                 <div class="form-group col-sm-12">
                     <label for="nome">Nome</label>
-                    <input id="nome" type="text" class="form-control" autofocus="autofocus"/>
+                    <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                        <input id="nome" type="text" class="form-control" autofocus="autofocus"/>
+                    </div>
                 </div>
             </div>
 
@@ -70,12 +74,18 @@
             <div class="row">
                 <div class="col-sm-4  form-group">
                     <label for="email">E-mail</label>
-                    <input id="email" type="text" class="form-control"/>
+                    <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                        <input id="email" type="text" class="form-control"/>
+                    </div>
                 </div>
 
                 <div class="col-sm-8  form-group">
-                    <label for="contato">Contato</label>
-                    <input id="contato" type="text" class="form-control"/>
+                    <label for="contato">Telefone</label>
+                    <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                        <input id="contato" type="text" class="form-control"/>
+                    </div>
                 </div>
             </div>
 
@@ -104,7 +114,7 @@
 
                 <div class="col-sm-4 form-group">
                     <label for="estado">Estado</label>
-                    <select id="estado" class="form-control">
+                    <select id="estado" class="form-control selectpicker show-tick" data-live-search="true">
                         <option value="">Selecione o estado</option>
                         <option value="1">Roraima</option>
                         <option value="2">Amazonas</option>
@@ -113,7 +123,7 @@
 
                 <div class="col-sm-4 form-group">
                     <label for="cidade">Cidade</label>
-                    <select id="cidade" class="form-control">
+                    <select id="cidade" class="form-control selectpicker show-tick" data-live-search="true">
                         <option value="">Selecione o cidade</option>
                         <option value="1">Boa Vista</option>
                         <option value="2">Manaus</option>
@@ -122,7 +132,7 @@
             </div>
 
             <div class="form-group">
-                <button class="btn btn-primary" type="submit">
+                <button class="btn btn-success" type="submit">
                     Salvar
                     <i class="fa fa-check"></i>
                 </button>
