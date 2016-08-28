@@ -8,6 +8,17 @@ UTILITÁRIOS
     font-size: 18px;
 }
 
+/* Eveito no botão cancelar */
+.btn-outline {
+    color: inherit;
+    background-color: transparent;
+    transition: all .5s;
+}
+.btn-danger{
+    border-radius: 4px;
+    border-color: #d43f3a;
+}
+
 /*
 #######################
 COMPONETES
