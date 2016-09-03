@@ -6,16 +6,16 @@ public enum Sabor {
     ADOCICADA("Adocicada"),
     AMARGA("Amarga"),
     FORTE("Forte"),
-    FRUTA("FRUTA"),
+    FRUTA("Fruta"),
     SUAVE("Suave");
 
-    private String descicao;
+    private String descricao;
 
     Sabor(String descicao) {
-        this.descicao = descicao;
+        this.descricao = descicao;
     }
 
-    public String getDescicao() {
-        return descicao;
+    public String getDescricao() {
+        return descricao;
     }
 }

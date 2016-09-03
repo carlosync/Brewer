@@ -6,13 +6,13 @@ public enum Origem {
     NACIONAL("Nacional"),
     INTERNACIONAL("Internacional");
 
-    private String descicao;
+    private String descricao;
 
     Origem(String descicao) {
-        this.descicao = descicao;
+        this.descricao = descicao;
     }
 
-    public String getDescicao() {
-        return descicao;
+    public String getDescricao() {
+        return descricao;
     }
 }
