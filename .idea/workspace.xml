@@ -7,26 +7,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="199af732-ce2d-4e54-9064-b97731bdbbf3" name="Default" comment="Criação do Entidade Cerveja.&#10;Configuração e Ativação do Jrebel no projeto&#10;Modifação da anotação @RequestMapping para @GetMapping da versão 4.3 do Spring.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/converter/EstiloConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/repository/EstiloRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/config/init/WebConfig.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/config/init/WebConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/ServiceConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/services/CervejaService.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/.netbeans_automatic_build" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/config/init/AppInitializer.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/config/init/AppInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/config/init/JPAConfig.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/config/init/JPAConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/controller/CervejasController.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/controller/CervejasController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/model/Origem.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/model/Origem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/model/Sabor.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/model/Sabor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/config/init/WebConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/config/init/WebConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/converter/EstiloConverter.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/converter/EstiloConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/model/Cerveja.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/model/Cerveja.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/images/favicon.png" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/images/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/images/logo-gray.png" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/images/logo-gray.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/config/init/AppInitializer.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/config/init/AppInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/config/init/JPAConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/config/init/JPAConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/controller/CervejasController.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/controller/CervejasController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/model/Origem.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/model/Origem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/model/Sabor.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/model/Sabor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/converter/EstiloConverter.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/converter/EstiloConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/model/Cerveja.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/model/Cerveja.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/images/favicon.png" afterPath="$PROJECT_DIR$/target/classes/static/images/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/images/logo-gray.png" afterPath="$PROJECT_DIR$/target/classes/static/layout/images/logo-gray.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.woff2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/AppInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/AppInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/model/Origem.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/model/Origem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/model/Sabor.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/model/Sabor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/converter/EstiloConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/converter/EstiloConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/style/brewer.css" afterPath="$PROJECT_DIR$/src/main/resources/static/style/brewer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/log4j2.xml" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/log4j2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/javascript/vendors/bootstrap-select.min.js" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/javascript/vendors/bootstrap-select.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/javascript/vendors/bootstrap-switch.min.js" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/javascript/vendors/bootstrap-switch.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/javascript/vendors/jquery.maskMoney.min.js" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/javascript/vendors/jquery.maskMoney.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/javascripts/algaworks.min.js" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/javascripts/algaworks.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/javascripts/vendors.js" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/javascripts/vendors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/javascripts/vendors.min.js" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/javascripts/vendors.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/stylesheets/algaworks.css" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/stylesheets/algaworks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/stylesheets/algaworks.min.css" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/stylesheets/algaworks.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/stylesheets/application.css" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/stylesheets/vendors.css" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/stylesheets/vendors.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/stylesheets/vendors.min.css" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/stylesheets/vendors.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/bootstrap.js" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/4.4.0/index.html" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/4.4.0/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/jquery/jquery.js" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/stickytableheaders/jquery.stickytableheaders.js" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/stickytableheaders/jquery.stickytableheaders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/sweetalert/sweetalert-dev.js" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/sweetalert/sweetalert-dev.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/sweetalert/sweetalert.css" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/layout/vendors/sweetalert/sweetalert.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/style/bootstrap-select.min.css" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/style/bootstrap-select.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/style/bootstrap-switch.min.css" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/style/bootstrap-switch.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/style/brewer.css" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/style/brewer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cerveja/CadastroCerveja.html" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cerveja/CadastroCerveja.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/javascript/vendors/bootstrap-select.min.js" afterPath="$PROJECT_DIR$/target/classes/static/javascript/vendors/bootstrap-select.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/javascript/vendors/bootstrap-switch.min.js" afterPath="$PROJECT_DIR$/target/classes/static/javascript/vendors/bootstrap-switch.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/javascript/vendors/jquery.maskMoney.min.js" afterPath="$PROJECT_DIR$/target/classes/static/javascript/vendors/jquery.maskMoney.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/javascripts/algaworks.min.js" afterPath="$PROJECT_DIR$/target/classes/static/layout/javascripts/algaworks.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/javascripts/vendors.js" afterPath="$PROJECT_DIR$/target/classes/static/layout/javascripts/vendors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/javascripts/vendors.min.js" afterPath="$PROJECT_DIR$/target/classes/static/layout/javascripts/vendors.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/stylesheets/algaworks.css" afterPath="$PROJECT_DIR$/target/classes/static/layout/stylesheets/algaworks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/stylesheets/algaworks.min.css" afterPath="$PROJECT_DIR$/target/classes/static/layout/stylesheets/algaworks.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/stylesheets/application.css" afterPath="$PROJECT_DIR$/target/classes/static/layout/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/stylesheets/vendors.css" afterPath="$PROJECT_DIR$/target/classes/static/layout/stylesheets/vendors.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/stylesheets/vendors.min.css" afterPath="$PROJECT_DIR$/target/classes/static/layout/stylesheets/vendors.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/bootstrap.js" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/4.4.0/index.html" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/4.4.0/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/jquery/jquery.js" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/stickytableheaders/jquery.stickytableheaders.js" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/stickytableheaders/jquery.stickytableheaders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/sweetalert/sweetalert-dev.js" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/sweetalert/sweetalert-dev.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/layout/vendors/sweetalert/sweetalert.css" afterPath="$PROJECT_DIR$/target/classes/static/layout/vendors/sweetalert/sweetalert.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/style/bootstrap-select.min.css" afterPath="$PROJECT_DIR$/target/classes/static/style/bootstrap-select.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/style/bootstrap-switch.min.css" afterPath="$PROJECT_DIR$/target/classes/static/style/bootstrap-switch.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/style/brewer.css" afterPath="$PROJECT_DIR$/target/classes/static/style/brewer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/cerveja/CadastroCerveja.html" afterPath="$PROJECT_DIR$/target/classes/templates/cerveja/CadastroCerveja.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="Brewer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,38 +137,38 @@
       <file leaf-file-name="CervejasController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="570">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CadastroCerveja.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CervejaService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/services/CervejaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CadastroCerveja.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+            <state relative-caret-position="209">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EstiloConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/converter/EstiloConverter.java">
+      <file leaf-file-name="CadastroCliente.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -104,9 +181,9 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -137,28 +214,32 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/estilo/CadastroEstilo.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/EstiloController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/usuario/CadastroUsuario.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/layout/LayoutDefault.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/model/Estilo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/style/brewer.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V01__criar_tabelas_estilo_e_cerveja.sql" />
         <option value="$PROJECT_DIR$/flyway.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/flyway.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/AppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/CervejaRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/model/Sabor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/EstiloRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/model/Origem.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/converter/EstiloConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/style/brewer.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/vendors.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/layout/LayoutDefault.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/AppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/ServiceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/services/CervejaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/converter/EstiloConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/cliente/Teste.html" />
       </list>
     </option>
   </component>
@@ -281,6 +362,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane />
       </pane>
@@ -400,113 +491,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cerveja" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="converter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,12 +515,13 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="Cerve&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;Cerv&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;Orige&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Origem.java&#10;Esti&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;cadas&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/cliente/CadastroCliente.html&#10;lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;Lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;La&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;LAY&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;pom&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="est&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;Cerve&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;Cerv&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;Orige&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Origem.java&#10;Esti&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;cadas&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/cliente/CadastroCliente.html&#10;lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;Lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;La&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;LAY&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;pom&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/pom.xml" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/static/javascript" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.brewer.config.init" />
+      <recent name="com.brewer.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -538,11 +534,35 @@
       <recent name="com.brewer.model" />
       <recent name="com.brewer.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.brewer.model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/javascript" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="Tomcat Server.Apache Tomcat">
+    <configuration default="false" name="Brewer [flyway:migrate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="flyway:migrate" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.4" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -937,6 +957,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1029,11 +1071,9 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.4" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+    <configuration default="false" name="Apache Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.4" ALTERNATIVE_JRE_ENABLED="false">
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Brewer:war exploded">
           <settings>
@@ -1137,9 +1177,15 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Apache Tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.Brewer [flyway:migrate]" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Maven.Brewer [flyway:migrate]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1173,7 +1219,11 @@
       <workItem from="1472860769885" duration="3381000" />
       <workItem from="1472913865446" duration="41000" />
       <workItem from="1472914024842" duration="2323000" />
-      <workItem from="1472945260937" duration="754000" />
+      <workItem from="1472945260937" duration="6164000" />
+      <workItem from="1473176152710" duration="815000" />
+      <workItem from="1473177009015" duration="794000" />
+      <workItem from="1473182494584" duration="1087000" />
+      <workItem from="1473188961451" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="Crianção do Projeto.. Brewer..">
       <created>1471197215276</created>
@@ -1193,7 +1243,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61421000" />
+    <option name="totallyTimeSpent" value="70033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1206,13 +1256,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2688822" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2900302" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1225,8 +1275,8 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779455" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779455" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6697966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707354" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.4939577" order="0" side_tool="false" content_ui="combo" />
@@ -1286,25 +1336,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/stylesheets/vendors.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/stylesheets/application.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendors/bootstrap/bootstrap.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/images/logo-gray.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/images/logo.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/cadastro-produto.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/layout/LayoutDefault.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/javascripts/vendors/vendors.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/javascripts/vendors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/javascript/vendors/jquery.maskMoney.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1422,48 +1454,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/LayoutDefault.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/algaworks.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="620" column="12" selection-start-line="620" selection-start-column="1" selection-end-line="620" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/style/brewer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flyway.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/flyway.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/AppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#289#290#0" expanded="false" />
-            <element signature="e#343#344#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1479,14 +1472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="69" column="25" selection-start-line="59" selection-start-column="16" selection-end-line="69" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1498,14 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1530,6 +1507,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/model/Origem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/LayoutDefault.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/style/brewer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/ServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/AppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/model/Estilo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1537,10 +1553,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/converter/EstiloConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/javascripts/vendors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/javascripts/algaworks.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/javascripts/vendors.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/algaworks.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11780">
+          <caret line="620" column="12" selection-start-line="620" selection-start-column="1" selection-end-line="620" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/vendors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="5351" column="24" selection-start-line="5350" selection-start-column="2" selection-end-line="5351" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/services/CervejaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="570">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1554,38 +1635,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="361">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/model/Origem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cliente/Teste.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/converter/EstiloConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -37,7 +37,7 @@
         <!--<i class="fa  fa-exclamation-circle"></i> Já existe um produto com o nome informado.-->
         <!--</div>-->
 
-        <form method="POST" th:object="${cerveja}" class="form-vertical  js-form-loading" th:action="@{/cerveja/novo}">
+        <form method="POST" th:object="${cerveja}" class="form-vertical js-form-loading" th:action="@{/cerveja/novo}">
 
             <div class="row">
                 <div class="col-sm-2  form-group">
@@ -138,7 +138,7 @@
                     Salvar
                     <i class="fa fa-check"></i>
                 </button>
-                <button class="btn btn-danger" type="button">Cancelar</button>
+                <button class="btn btn-danger" type="button">Limpar</button>
             </div>
 
         </form>

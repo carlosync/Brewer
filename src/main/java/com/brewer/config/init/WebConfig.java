@@ -70,6 +70,7 @@ public class WebConfig extends WebMvcConfigurerAdapter implements ApplicationCon
     public FormattingConversionService mvcConversionService() {
         DefaultFormattingConversionService conversionService = new DefaultFormattingConversionService();
         conversionService.addConverter(new EstiloConverter());
+
         return conversionService;
     }
 }

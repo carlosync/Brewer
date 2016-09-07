@@ -18,12 +18,16 @@ UTILITÁRIOS
     border-radius: 4px;
     border-color: #d43f3a;
 }
-
-/* Cor botão success */
-.ui-button-success {
+/*Botão btn-success*/
+.btn-success {
+    color: #ffffff;
     background-color: #47A4A5;
     border-color: #47A4A5;
-    color: #FFFFFF;
+}
+.btn-success:hover {
+    color: #ffffff;
+    background-color: #429899;
+    border-color: #429899;
 }
 
 /*

@@ -25,7 +25,7 @@ public class Cerveja {
 
     private BigDecimal valor;
 
-    @Column(name = "teor_alcolico")
+    @Column(name = "teor_alcoolico")
     private BigDecimal teorAlcolico;
 
     private BigDecimal comissao;
