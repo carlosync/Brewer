@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-xs-2">
                     <div class="aw-page-header-controls">
-                        <a class="btn btn-default"><i class="fa fa-search"></i>
+                        <a class="btn aw-btn-cancel"><i class="fa fa-search"></i>
                             <span class="hidden-xs hidden-sm">Pesquisar</span>
                         </a>
                     </div>
@@ -31,21 +31,19 @@
 
     <div class="container-fluid">
 
-        <!--<div class="alert  alert-danger  alert-dismissible" role="alert">-->
-        <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close">-->
-        <!--<span aria-hidden="true">&times;</span></button>-->
-        <!--<i class="fa  fa-exclamation-circle"></i> Já existe um produto com o nome informado.-->
-        <!--</div>-->
+        <th:block th:include="msgs/MsgSucesso"></th:block>
 
-        <form method="POST" th:object="${cerveja}" class="form-vertical js-form-loading" th:action="@{/cerveja/novo}">
+        <form method="POST" th:object="${cerveja}" class="form-vertical js-form-loading">
+
+            <th:block th:include="msgs/MsgErroValidacao"></th:block>
 
             <div class="row">
-                <div class="col-sm-2  form-group">
+                <div class="col-sm-2 form-group">
                     <label for="sku">Sku</label>
                     <input id="sku" type="text" class="form-control" autofocus="autofocus" th:field="*{sku}"/>
                 </div>
 
-                <div class="col-sm-10  form-group">
+                <div class="col-sm-10 form-group">
                     <label for="nome">Nome</label>
                     <div class="input-group">
                         <div class="input-group-addon"><i class="fa fa-beer"></i></div>
@@ -138,7 +136,7 @@
                     Salvar
                     <i class="fa fa-check"></i>
                 </button>
-                <button class="btn btn-default" type="button">Limpar</button>
+                <button class="btn aw-btn-cancel" type="button">Limpar</button>
             </div>
 
         </form>

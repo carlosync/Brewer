@@ -14,13 +14,13 @@ public class Cerveja {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long codigo;
 
-    @NotBlank(message = "Sku é obrigatório")
+    @NotBlank(message = "SKU é obrigatório")
     private String sku;
 
     @NotBlank(message = "Nome é obrigatório")
     private String nome;
 
-    @Size(min = 1, max = 50, message = "O tamanho da descricao deve estar entre 1 e 50")
+    @NotBlank(message = "Descrição é obrigatório")
     private String descricao;
 
     private BigDecimal valor;

@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.validation.Valid;
 import java.util.Optional;
 
 @Controller
@@ -39,8 +40,8 @@ public class CervejasController {
         return mv;
     }
 
-    @RequestMapping(value = "cerveja/novo", method = RequestMethod.POST)
-    public ModelAndView salvar(Cerveja cerveja, BindingResult bindingResult, RedirectAttributes attributes){
+    @RequestMapping(value = "/cerveja/novo", method = RequestMethod.POST)
+    public ModelAndView salvar(@Valid Cerveja cerveja, BindingResult bindingResult, RedirectAttributes attributes){
         if(bindingResult.hasErrors()){
             return novo(cerveja);
         }
