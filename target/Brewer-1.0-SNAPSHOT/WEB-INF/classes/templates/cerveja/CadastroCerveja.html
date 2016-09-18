@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-xs-2">
                     <div class="aw-page-header-controls">
-                        <a class="btn aw-btn-cancel"><i class="fa fa-search"></i>
+                        <a class="btn btn-default"><i class="fa fa-search"></i>
                             <span class="hidden-xs hidden-sm">Pesquisar</span>
                         </a>
                     </div>
@@ -61,8 +61,7 @@
                 <div class="col-sm-3  form-group">
                     <label for="estilo">Estilo</label>
                     <div class="bw-field-action">
-                        <select id="estilo" class="form-control selectpicker show-tick" data-live-search="true"
-                                th:field="*{estilo}">
+                        <select id="estilo" class="form-control" th:field="*{estilo}">
                             <option value="">Selecione o estilo</option>
                             <option th:each="estilo : ${estilos}" th:value="${estilo.codigo}"
                                     th:text="${estilo.descricao}"></option>
@@ -77,8 +76,7 @@
 
                 <div class="col-sm-3  form-group">
                     <label for="sabor">Sabor</label>
-                    <select id="sabor" class="form-control selectpicker show-tick" data-live-search="true"
-                            th:field="*{sabor}">
+                    <select id="sabor" class="form-control" th:field="*{sabor}">
                         <option value="">Selecione o sabor</option>
                         <option th:each="sabor : ${sabores}" th:value="${sabor}"
                                 th:text="${sabor.descricao}">Adocicada</option>
@@ -136,7 +134,7 @@
                     Salvar
                     <i class="fa fa-check"></i>
                 </button>
-                <button class="btn aw-btn-cancel" type="button">Limpar</button>
+                <button class="btn btn-default" type="button">Novo</button>
             </div>
 
         </form>

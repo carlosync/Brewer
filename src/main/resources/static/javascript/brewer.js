@@ -1,11 +1,8 @@
-/**
- * Created by Carlos on 21/08/16.
- */
 
 $(function () {
     var decimal = $('.js-decimal');
-    decimal.maskMoney();
+    decimal.maskMoney({decimal: ',', thousands: '.' });
 
     var inteiro = $('.js-plain');
-    inteiro.maskMoney({precision: 0});
+    inteiro.maskMoney({precision: 0, thousands: '.'});
 });
