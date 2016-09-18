@@ -119,17 +119,17 @@ Redesign de componentes do Bootstrap
 #########################
 */
 .alert-danger {
-    color: #ffffff;
-    background-color: #e74c3c;
-    border-color: #e74c3c;
-    font-size: 14px;
+    /*color: #ffffff;*/
+    /*background-color: #e74c3c;*/
+    /*border-color: #e74c3c;*/
+    font-size: 15px;
 }
 
 .alert-success {
-    color: #ffffff;
-    background-color: #18bc9c;
-    border-color: #18bc9c;
-    font-size: 14px;
+    /*color: #ffffff;*/
+    /*background-color: #18bc9c;*/
+    /*border-color: #18bc9c;*/
+    font-size: 15px;
 }
 
 /*

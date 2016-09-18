@@ -14,7 +14,7 @@ public class Estilo implements Serializable{
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long codigo;
 
-    @NotBlank(message = "O Campo descrição é obrigatório")
+    @NotBlank(message = "O Campo Descrição é Obrigatório")
     private String descricao;
 
     @OneToMany(mappedBy = "estilo")
