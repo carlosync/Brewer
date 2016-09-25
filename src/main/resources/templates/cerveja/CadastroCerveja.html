@@ -134,13 +134,17 @@
                     Salvar
                     <i class="fa fa-check"></i>
                 </button>
-                <button class="btn btn-default" type="button">Novo</button>
+                <button class="btn btn-default" type="reset">Novo</button>
             </div>
 
         </form>
     </div>
     <div th:replace="modal/EstiloModal" th:fragment="modal"></div>
 </section>
+
+<th:block layout:fragment="javascript-extras">
+    <script th:src="@{/javascript/estilo-cadastro-rapido.js}"></script>
+</th:block>
 
 </body>
 </html>
