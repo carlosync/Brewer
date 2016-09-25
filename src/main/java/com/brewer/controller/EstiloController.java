@@ -15,18 +15,19 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.validation.Valid;
 
 @Controller
+@RequestMapping(value = "/estilo")
 public class EstiloController {
 
     @Autowired
     private EstiloService estiloService;
 
-    @RequestMapping("estilo/novo")
+    @RequestMapping("/novo")
     public ModelAndView novo(Estilo estilo){
         ModelAndView modelAndView = new ModelAndView("estilo/CadastroEstilo");
         return modelAndView;
     }
 
-    @PostMapping(value = "/estilo/novo")
+    @RequestMapping(value = "/novo", method = RequestMethod.POST)
     public ModelAndView salvar(@Valid Estilo estilo, BindingResult result, RedirectAttributes attributes){
         if(result.hasErrors()){
             return novo(estilo);
@@ -41,17 +42,12 @@ public class EstiloController {
         return new ModelAndView("redirect:/estilo/novo");
     }
 
-    @RequestMapping(value = "/estilos", method = RequestMethod.POST, consumes = {MediaType.APPLICATION_JSON_VALUE})
+    @RequestMapping(method = RequestMethod.POST, consumes = {MediaType.APPLICATION_JSON_VALUE})
     public @ResponseBody ResponseEntity<?> salvarEstiloRapido(@RequestBody @Valid Estilo estilo, BindingResult result){
         if(result.hasErrors()){
             return ResponseEntity.badRequest().body(result.getFieldError("descricao").getDefaultMessage());
         }
-        try {
-            estilo = estiloService.salvar(estilo);
-        }catch (ObjetoJaExisteException e){
-            return ResponseEntity.badRequest().body(e.getMessage());
-        }
-
+        estilo = estiloService.salvar(estilo);
         return ResponseEntity.ok(estilo);
     }
 }
