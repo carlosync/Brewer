@@ -18,4 +18,7 @@ Brewer.MaskMoney = (function () {
 $(function () {
     var maskMoney = new Brewer.MaskMoney();
     maskMoney.enable();
+
+    //Initialize Select2 Elements
+    $(".select2").select2();
 });
