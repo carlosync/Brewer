@@ -24,8 +24,10 @@ public class MessageElementTagProcessor extends AbstractElementTagProcessor{
         IModelFactory modelFactory = context.getModelFactory();
         IModel model = modelFactory.createModel();
 
-        model.add(modelFactory.createStandaloneElementTag("th:block", "th:include", "msgs/MsgSucesso"));
-        model.add(modelFactory.createStandaloneElementTag("th:block", "th:include", "msgs/MsgErroValidacao"));
+        model.add(modelFactory
+                .createStandaloneElementTag("th:block", "th:replace", "msgs/MsgSucesso :: msgsucesso"));
+        model.add(modelFactory
+                .createStandaloneElementTag("th:block", "th:replace", "msgs/MsgErroValidacao :: msgvalidacao"));
 
         structureHandler.replaceWith(model, true);
     }
