@@ -52,6 +52,11 @@ public class Cerveja {
     @Enumerated(EnumType.STRING)
     private Sabor sabor;
 
+    private String foto;
+
+    @Column(name = "content_type")
+    private String contentType;
+
     @NotNull(message = "O Estilo é obrigatório")
     @ManyToOne
     @JoinColumn(name = "codigo_estilo")
@@ -149,6 +154,22 @@ public class Cerveja {
 
     public void setEstilo(Estilo estilo) {
         this.estilo = estilo;
+    }
+
+    public String getFoto() {
+        return foto;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
+    }
+
+    public String getContentType() {
+        return contentType;
+    }
+
+    public void setContentType(String contentType) {
+        this.contentType = contentType;
     }
 
     @Override

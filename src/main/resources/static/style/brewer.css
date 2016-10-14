@@ -35,6 +35,35 @@ COMPONETES
     margin: 5px 0 0 5px;
 }
 
+/* UIkit Upload */
+.bw-upload {
+    padding: 15px;
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+    background: #fafafa;
+    text-align: center;
+}
+
+.bw-upload-form-file {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1px;
+}
+
+.bw-upload-form-file > input[type=file] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+
+    font-size: 500px;
+}
+
 /*
 #####################################
 Redesign de componentes do Bootstrap
@@ -62,6 +91,9 @@ Redesign de componentes do Bootstrap
     padding: 6px 12px;
     font-size: 14px;
     /*border-radius: 0;*/
+}
+.btn:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .btn-success {

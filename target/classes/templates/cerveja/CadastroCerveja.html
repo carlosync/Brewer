@@ -7,8 +7,9 @@
       xmlns:brewer="http://brewer.webapp.com">
 
 <head>
-    <!--<link rel="stylesheet" type="text/css" href="/static/layout/stylesheets/vendors.min.css"/>-->
     <title>Brewer - Cadastro de cerveja</title>
+    <!--<link rel="stylesheet" type="text/css" href="/static/layout/stylesheets/vendors.min.css"/>-->
+    <link rel="stylesheet" type="text/css" th:href="@{/style/upload.min.css}"/>
 </head>
 <body>
 
@@ -129,6 +130,22 @@
                 </div>
             </div>
 
+            <div class="row">
+                <div class="form-group col-sm-12">
+
+                    <input type="hidden" th:field="*{foto}"/>
+                    <input type="hidden" th:field="*{contentType}"/>
+
+                    <label class="control-label">Foto</label>
+                    <div id="upload-drop" class="bw-upload">
+                        <i class="glyphicon glyphicon-cloud-upload"></i>
+                        <span>Arraste a foto aqui ou </span>
+                        <a class="bw-upload-form-file">Selecione
+                            <input id="upload-select" type="file" accept=".jpg,.jpeg,.png"/></a>
+                    </div>
+                </div>
+            </div>
+
             <div class="form-group">
                 <button class="btn btn-success" type="submit">
                     Salvar
@@ -144,6 +161,27 @@
 
 <th:block layout:fragment="javascript-extras">
     <script th:src="@{/javascript/estilo-cadastro-rapido.js}"></script>
+    <script th:src="@{/javascript/vendors/uikit.min.js}"></script>
+    <script th:src="@{/javascript/vendors/upload.min.js}"></script>
+
+    <script>
+        $(function() {
+            var settings = {
+                type: 'json',
+                filelimit: 1,
+                allow: '*.(jpg|jpeg|png)',
+                action: '/brewer/fotos',
+                complete: function (resposta) {
+                    $('input[name=foto]').val(resposta.nome);
+                    $('input[name=contentType]').val(resposta.contentType);
+                }
+            };
+
+            UIkit.uploadSelect($('#upload-select'), settings);
+            UIkit.uploadDrop($('#upload-drop'), settings);
+        });
+    </script>
+
 </th:block>
 
 </body>
