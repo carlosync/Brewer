@@ -7,24 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="199af732-ce2d-4e54-9064-b97731bdbbf3" name="Default" comment="Criação do Entidade Cerveja.&#10;Configuração e Ativação do Jrebel no projeto&#10;Modifação da anotação @RequestMapping para @GetMapping da versão 4.3 do Spring.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/controller/FotosController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/dto/FotoDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/storage/FotoStorageRunnable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V02__criar_colunas_fotos_na_cerveja.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/vendors/uikit.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/vendors/upload.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/style/upload.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/config/init/AppInitializer.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/config/init/AppInitializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/config/init/AppInitializer.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/config/init/AppInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/config/init/ServiceConfig.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/config/init/ServiceConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/config/init/ServiceConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/config/init/ServiceConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/AppInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/AppInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/style/brewer.css" afterPath="$PROJECT_DIR$/src/main/resources/static/style/brewer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/style/brewer.css" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/style/brewer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cerveja/CadastroCerveja.html" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cerveja/CadastroCerveja.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/style/brewer.css" afterPath="$PROJECT_DIR$/target/classes/static/style/brewer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/cerveja/CadastroCerveja.html" afterPath="$PROJECT_DIR$/target/classes/templates/cerveja/CadastroCerveja.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/ServiceConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/ServiceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/storage/local/FotoStorageLocal.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/storage/local/FotoStorageLocal.java" />
     </list>
     <ignored path="Brewer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CadastroCerveja.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CadastroCerveja.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="174" column="55" selection-start-line="174" selection-start-column="55" selection-end-line="174" selection-end-column="55" />
+            <state relative-caret-position="2907">
+              <caret line="153" column="45" selection-start-line="153" selection-start-column="45" selection-end-line="153" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -68,18 +55,9 @@
       <file leaf-file-name="Cerveja.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
+            <state relative-caret-position="950">
               <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-              <folding>
-                <element signature="e#3753#3754#0" expanded="true" />
-                <element signature="e#3780#3781#0" expanded="true" />
-                <element signature="e#3820#3821#0" expanded="true" />
-                <element signature="e#3852#3853#0" expanded="true" />
-                <element signature="e#3890#3891#0" expanded="true" />
-                <element signature="e#3924#3925#0" expanded="true" />
-                <element signature="e#3978#3979#0" expanded="true" />
-                <element signature="e#4024#4025#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,36 +66,30 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/FotosController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FotoStorageRunnable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/storage/FotoStorageRunnable.java">
+      <file leaf-file-name="FotoStorageLocal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/storage/local/FotoStorageLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FotoDTO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/dto/FotoDTO.java">
+      <file leaf-file-name="ServiceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/ServiceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="228">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,6 +106,7 @@
         <option value="AnnotationType" />
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -148,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/CidadeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/cidade/CadastroCidade.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/usuario/CadastroUsuario.html" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V01__criar_tabelas_estilo_e_cerveja.sql" />
@@ -160,7 +132,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/CervejaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/model/Sabor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/model/Origem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/ServiceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/services/CervejaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/converter/EstiloConverter.java" />
@@ -199,6 +170,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/storage/local/FotoStoageLocal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/ServiceConfig.java" />
       </list>
     </option>
   </component>
@@ -321,20 +294,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -429,7 +388,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migration" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,34 +418,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1240,7 +1183,13 @@
       <workItem from="1476104757291" duration="2071000" />
       <workItem from="1476366541035" duration="73000" />
       <workItem from="1476366644719" duration="2014000" />
-      <workItem from="1476467545541" duration="3683000" />
+      <workItem from="1476467545541" duration="4719000" />
+      <workItem from="1477397143718" duration="1926000" />
+      <workItem from="1482611302389" duration="169000" />
+      <workItem from="1482611505544" duration="1476000" />
+      <workItem from="1486599841583" duration="307000" />
+      <workItem from="1487807055547" duration="176000" />
+      <workItem from="1487807262825" duration="226000" />
     </task>
     <task id="LOCAL-00001" summary="Crianção do Projeto.. Brewer..">
       <created>1471197215276</created>
@@ -1260,7 +1209,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128186000" />
+    <option name="totallyTimeSpent" value="133502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1272,14 +1221,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="731" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="731" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2900302" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32734376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27643505" sideWeight="0.496875" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27643505" sideWeight="0.496875" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1288,7 +1238,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35837245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779455" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3286385" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1296,7 +1245,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2900302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707354" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3286385" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.4939577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1306,8 +1254,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779455" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="17" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1354,27 +1304,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/converter/EstiloConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/javascripts/vendors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/javascripts/algaworks.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/javascripts/vendors.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27">
@@ -1506,9 +1435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1524,7 +1450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1645,22 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-          <folding>
-            <element signature="e#377#378#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#520#521#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
-            <element signature="e#677#678#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/FotosController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1668,7 +1577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1676,7 +1584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="75" column="25" selection-start-line="62" selection-start-column="16" selection-end-line="75" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1684,32 +1591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/storage/FotoStorageRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-          <folding>
-            <element signature="e#3753#3754#0" expanded="true" />
-            <element signature="e#3780#3781#0" expanded="true" />
-            <element signature="e#3820#3821#0" expanded="true" />
-            <element signature="e#3852#3853#0" expanded="true" />
-            <element signature="e#3890#3891#0" expanded="true" />
-            <element signature="e#3924#3925#0" expanded="true" />
-            <element signature="e#3978#3979#0" expanded="true" />
-            <element signature="e#4024#4025#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1717,23 +1598,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/storage/FotoStorageRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/storage/FotoStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/FotosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/ServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/model/Cerveja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="174" column="55" selection-start-line="174" selection-start-column="55" selection-end-line="174" selection-end-column="55" />
+        <state relative-caret-position="2907">
+          <caret line="153" column="45" selection-start-line="153" selection-start-column="45" selection-end-line="153" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/storage/local/FotoStorageLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -5,19 +5,18 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
-import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class FotoStoageLocal implements FotoStorage{
+public class FotoStorageLocal implements FotoStorage{
 
-    private final static Logger LOGGER = LoggerFactory.getLogger(FotoStoageLocal.class);
+    private final static Logger LOGGER = LoggerFactory.getLogger(FotoStorageLocal.class);
 
     private Path local;
     private Path localTemporario;
 
-    public FotoStoageLocal() {
+    public FotoStorageLocal() {
         this.local = FileSystems.getDefault().getPath(System.getenv("HOME"), ".brewerfotos");
         criarPastas();
     }
