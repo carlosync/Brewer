@@ -7,30 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="199af732-ce2d-4e54-9064-b97731bdbbf3" name="Default" comment="Criação do Entidade Cerveja.&#10;Configuração e Ativação do Jrebel no projeto&#10;Modifação da anotação @RequestMapping para @GetMapping da versão 4.3 do Spring.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/vendors/handlebars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/hbs/FotoCerveja.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/static/javascript/vendors/handlebars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/hbs/FotoCerveja.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/javascript/vendors/handlebars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/templates/hbs/FotoCerveja.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/controller/FotosController.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/controller/FotosController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/storage/FotoStorage.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/storage/FotoStorage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/storage/FotoStorageRunnable.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/storage/FotoStorageRunnable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/storage/local/FotoStorageLocal.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/storage/local/FotoStorageLocal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/controller/FotosController.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/controller/FotosController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/storage/FotoStorage.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/storage/FotoStorage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/storage/FotoStorageRunnable.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/storage/FotoStorageRunnable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/storage/local/FotoStorageLocal.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/storage/local/FotoStorageLocal.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/cerveja-upload-foto.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/controller/FotosController.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/controller/FotosController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/storage/FotoStorage.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/storage/FotoStorage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/storage/FotoStorageRunnable.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/storage/FotoStorageRunnable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/storage/local/FotoStorageLocal.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/storage/local/FotoStorageLocal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/log4j2.xml" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/log4j2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cerveja/CadastroCerveja.html" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cerveja/CadastroCerveja.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/cerveja/CadastroCerveja.html" afterPath="$PROJECT_DIR$/target/classes/templates/cerveja/CadastroCerveja.html" />
     </list>
     <ignored path="Brewer.iws" />
@@ -62,11 +42,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CadastroCerveja.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CadastroCerveja.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="181" column="45" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="45" />
+            <state relative-caret-position="445">
+              <caret line="169" column="53" selection-start-line="169" selection-start-column="53" selection-end-line="169" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cerveja-upload-foto.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/javascript/cerveja-upload-foto.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,9 +116,9 @@
         <option value="Enum" />
         <option value="HTML File" />
         <option value="AnnotationType" />
-        <option value="JavaScript File" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -143,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flyway.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/flyway.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
@@ -194,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/storage/local/FotoStorageLocal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/FotosController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/javascript/cerveja-upload-foto.js" />
       </list>
     </option>
   </component>
@@ -440,11 +430,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Brewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Brewer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hbs" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -467,10 +483,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brewer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1245,7 +1257,7 @@
       <workItem from="1487807262825" duration="1152000" />
       <workItem from="1492374587089" duration="903000" />
       <workItem from="1494076978374" duration="5944000" />
-      <workItem from="1494165019723" duration="7678000" />
+      <workItem from="1494165019723" duration="11179000" />
     </task>
     <task id="LOCAL-00001" summary="Crianção do Projeto.. Brewer..">
       <created>1471197215276</created>
@@ -1265,7 +1277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148953000" />
+    <option name="totallyTimeSpent" value="152454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1360,13 +1372,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/vendors.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="4743" column="24" selection-start-line="4743" selection-start-column="24" selection-end-line="4743" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-166">
@@ -1709,6 +1714,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hbs/FotoCerveja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/FotosController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
@@ -1720,18 +1733,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hbs/FotoCerveja.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="445">
+          <caret line="169" column="53" selection-start-line="169" selection-start-column="53" selection-end-line="169" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/javascript/cerveja-upload-foto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="181" column="45" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="45" />
+        <state relative-caret-position="1026">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
