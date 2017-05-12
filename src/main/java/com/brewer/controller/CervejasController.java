@@ -20,6 +20,7 @@ import javax.validation.Valid;
 import java.util.Optional;
 
 @Controller
+@RequestMapping("/cerveja")
 public class CervejasController {
 
     @Autowired
@@ -31,7 +32,7 @@ public class CervejasController {
     @Autowired
     private CervejaService cervejaService;
 
-    @RequestMapping("cerveja/novo")
+    @RequestMapping("/novo")
     public ModelAndView novo(Cerveja cerveja){
         ModelAndView mv = new ModelAndView("cerveja/CadastroCerveja");
         mv.addObject("sabores", Sabor.values());
@@ -40,7 +41,7 @@ public class CervejasController {
         return mv;
     }
 
-    @RequestMapping(value = "/cerveja/novo", method = RequestMethod.POST)
+    @RequestMapping(value = "/novo", method = RequestMethod.POST)
     public ModelAndView salvar(@Valid Cerveja cerveja, BindingResult bindingResult, RedirectAttributes attributes){
         if(bindingResult.hasErrors()){
             return novo(cerveja);
@@ -48,6 +49,16 @@ public class CervejasController {
         this.cervejaService.salvar(cerveja);
         attributes.addFlashAttribute("mensagem", "Cerveja salva com sucesso.");
         return new ModelAndView("redirect:/cerveja/novo");
+    }
+
+    @GetMapping
+    public ModelAndView pesquisar(){
+        ModelAndView mv = new ModelAndView("cerveja/PesquisaCervejas");
+        mv.addObject("sabores", Sabor.values());
+        mv.addObject("origens", Origem.values());
+        mv.addObject("estilos", estiloRepository.findAll());
+        mv.addObject("cervejas", cervejaRepository.findAll());
+        return mv;
     }
 
 }
