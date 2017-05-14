@@ -5,6 +5,7 @@ import com.brewer.model.Origem;
 import com.brewer.model.Sabor;
 import com.brewer.repository.CervejaRepository;
 import com.brewer.repository.EstiloRepository;
+import com.brewer.repository.filter.CervejaFilter;
 import com.brewer.services.CervejaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -52,12 +53,13 @@ public class CervejasController {
     }
 
     @GetMapping
-    public ModelAndView pesquisar(){
+    public ModelAndView pesquisar(CervejaFilter cervejaFilter, BindingResult bindingResult){
         ModelAndView mv = new ModelAndView("cerveja/PesquisaCervejas");
         mv.addObject("sabores", Sabor.values());
         mv.addObject("origens", Origem.values());
         mv.addObject("estilos", estiloRepository.findAll());
-        mv.addObject("cervejas", cervejaRepository.findAll());
+
+        mv.addObject("cervejas", cervejaRepository.filtra(cervejaFilter));
         return mv;
     }
 

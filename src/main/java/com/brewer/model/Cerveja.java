@@ -2,6 +2,7 @@ package com.brewer.model;
 
 import com.brewer.validation.Sku;
 import org.hibernate.validator.constraints.NotBlank;
+import org.springframework.util.StringUtils;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
@@ -158,6 +159,10 @@ public class Cerveja {
 
     public String getFoto() {
         return foto;
+    }
+
+    public String getFotoOrMock() {
+        return !StringUtils.isEmpty(foto) ? foto : "cerveja-mock.png";
     }
 
     public void setFoto(String foto) {

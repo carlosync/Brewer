@@ -34,4 +34,10 @@ public class FotosController {
     public void apagarFotoTemporaria(@PathVariable String nome){
          fotoStorage.apagarFotoTemporaria(nome);
     }
+
+    @GetMapping("/{nome:.*}")
+    public byte[] recuperarFoto(@PathVariable String nome){
+        return fotoStorage.recuperarFoto(nome);
+    }
+
 }
