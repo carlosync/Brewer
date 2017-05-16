@@ -7,11 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="199af732-ce2d-4e54-9064-b97731bdbbf3" name="Default" comment="Criação do Entidade Cerveja.&#10;Configuração e Ativação do Jrebel no projeto&#10;Modifação da anotação @RequestMapping para @GetMapping da versão 4.3 do Spring.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasRepositoryQueries.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasRepositoryQueries.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cerveja/PesquisaCervejas.html" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cerveja/PesquisaCervejas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/cerveja/PesquisaCervejas.html" afterPath="$PROJECT_DIR$/target/classes/templates/cerveja/PesquisaCervejas.html" />
     </list>
     <ignored path="Brewer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +46,18 @@
       <file leaf-file-name="CervejasController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="56" column="71" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+            <state relative-caret-position="426">
+              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CervejasRepositoryQueries.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasRepositoryQueries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -55,8 +66,8 @@
       <file leaf-file-name="CervejaRepositoryImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+            <state relative-caret-position="652">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,11 +76,11 @@
       <file leaf-file-name="PesquisaCervejas.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1342">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="292">
+              <caret line="141" column="56" selection-start-line="141" selection-start-column="56" selection-end-line="141" selection-end-column="56" />
               <folding>
-                <element signature="e#6776#6783#0" expanded="true" />
-                <element signature="e#7368#7375#0" expanded="true" />
+                <element signature="e#6834#6841#0" expanded="true" />
+                <element signature="e#7196#7203#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,12 +110,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/cliente/Teste.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/vendors.min.css" />
         <option value="$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/vendors.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/validation/Sku.java" />
@@ -121,7 +132,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/thymeleaf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/thymeleaf/processor/ClassForErrorAttributeTagProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/thymeleaf/processor/ClassForError.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/thymeleaf/processor/BrewerDialect.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout/LayoutDefault.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/javascript/brewer.js" />
@@ -152,6 +162,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasQueries.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/CervejaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasRepositoryQueries.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html" />
@@ -187,9 +199,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="731" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -364,10 +376,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -468,16 +490,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,8 +503,9 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/pom.xml&#10;Cerve&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/controller/CervejasController.java&#10;CERVE&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;FOTOS&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/controller/FotosController.java&#10;bre&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/static/style/brewer.css&#10;cerve&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/controller/CervejasController.java&#10;log&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/log4j2.xml&#10;Cer&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;App&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/AppInitializer.java&#10;Web&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/WebConfig.java&#10;Est&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;Estilo&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/repository/EstiloRepository.java&#10;Esti&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/services/EstiloService.java&#10;cer&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;brew&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/static/style/brewer.css&#10;Cerv&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;est&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;Orige&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Origem.java&#10;cadas&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/cliente/CadastroCliente.html&#10;lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;Lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;La&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;LAY&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html" />
+    <property name="SearchEverywhereHistoryKey" value="cerveja&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java&#10;cerve&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/repository/filter/CervejaFilter.java&#10;web&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/WebConfig.java&#10;pom&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/pom.xml&#10;Cerve&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/controller/CervejasController.java&#10;CERVE&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;FOTOS&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/controller/FotosController.java&#10;bre&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/static/style/brewer.css&#10;log&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/log4j2.xml&#10;Cer&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;App&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/AppInitializer.java&#10;Web&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/WebConfig.java&#10;Est&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;Estilo&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/repository/EstiloRepository.java&#10;Esti&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/services/EstiloService.java&#10;cer&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;brew&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/static/style/brewer.css&#10;Cerv&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;est&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;Orige&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Origem.java&#10;cadas&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/cliente/CadastroCliente.html&#10;lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;Lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;La&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;LAY&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1239,7 +1252,8 @@
       <workItem from="1494165019723" duration="11442000" />
       <workItem from="1494505871043" duration="8605000" />
       <workItem from="1494595063021" duration="5470000" />
-      <workItem from="1494694204489" duration="10277000" />
+      <workItem from="1494694204489" duration="10549000" />
+      <workItem from="1494939336409" duration="4601000" />
     </task>
     <task id="LOCAL-00001" summary="Crianção do Projeto.. Brewer..">
       <created>1471197215276</created>
@@ -1259,7 +1273,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177069000" />
+    <option name="totallyTimeSpent" value="181942000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1271,15 +1285,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="731" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28705147" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32605305" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22741432" sideWeight="0.50646204" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32714054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22809668" sideWeight="0.496875" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22741432" sideWeight="0.49353796" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1288,7 +1302,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35837245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24140625" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3286385" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1300,7 +1314,6 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2" sideWeight="0.5060423" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1309,6 +1322,7 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1457,9 +1471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1509,15 +1520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="59" column="47" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,7 +1561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1586,7 +1587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1624,7 +1624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1659,7 +1658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="666" column="0" selection-start-line="666" selection-start-column="0" selection-end-line="666" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1667,7 +1665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1675,7 +1672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1695,10 +1691,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/vendors.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/vendors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4522">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/algaworks.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/LayoutDefault.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1711,61 +1735,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/vendors.min.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/vendors.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4522">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/algaworks.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/LayoutDefault.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="80" />
+        <state relative-caret-position="426">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasRepositoryQueries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="133">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="56" column="71" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+        <state relative-caret-position="652">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1342">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="292">
+          <caret line="141" column="56" selection-start-line="141" selection-start-column="56" selection-end-line="141" selection-end-column="56" />
           <folding>
-            <element signature="e#6776#6783#0" expanded="true" />
-            <element signature="e#7368#7375#0" expanded="true" />
+            <element signature="e#6834#6841#0" expanded="true" />
+            <element signature="e#7196#7203#0" expanded="true" />
           </folding>
         </state>
       </provider>

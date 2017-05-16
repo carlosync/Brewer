@@ -8,6 +8,9 @@ import com.brewer.repository.EstiloRepository;
 import com.brewer.repository.filter.CervejaFilter;
 import com.brewer.services.CervejaService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -53,13 +56,15 @@ public class CervejasController {
     }
 
     @GetMapping
-    public ModelAndView pesquisar(CervejaFilter cervejaFilter, BindingResult bindingResult){
+    public ModelAndView pesquisar(CervejaFilter cervejaFilter, BindingResult bindingResult,
+                                  @PageableDefault(size = 2) Pageable pageable){
         ModelAndView mv = new ModelAndView("cerveja/PesquisaCervejas");
         mv.addObject("sabores", Sabor.values());
         mv.addObject("origens", Origem.values());
         mv.addObject("estilos", estiloRepository.findAll());
 
-        mv.addObject("cervejas", cervejaRepository.filtra(cervejaFilter));
+        Page<Cerveja> pagina = cervejaRepository.filtra(cervejaFilter, pageable);
+        mv.addObject("pagina", pagina);
         return mv;
     }
 
