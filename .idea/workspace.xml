@@ -10,10 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="199af732-ce2d-4e54-9064-b97731bdbbf3" name="Default" comment="Criação do Entidade Cerveja.&#10;Configuração e Ativação do Jrebel no projeto&#10;Modifação da anotação @RequestMapping para @GetMapping da versão 4.3 do Spring.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/controller/page/PageWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/repository/helper/CervejaRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/repository/helper/CervejaRepositoryImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/repository/helper/CervejaRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/repository/helper/CervejaRepositoryImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cerveja/PesquisaCervejas.html" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cerveja/PesquisaCervejas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/cerveja/PesquisaCervejas.html" afterPath="$PROJECT_DIR$/target/classes/templates/cerveja/PesquisaCervejas.html" />
     </list>
     <ignored path="Brewer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +60,9 @@
       <file leaf-file-name="CervejaRepositoryImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="43" column="90" selection-start-line="43" selection-start-column="90" selection-end-line="43" selection-end-column="90" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,11 +70,11 @@
       <file leaf-file-name="PesquisaCervejas.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="141" column="97" selection-start-line="141" selection-start-column="97" selection-end-line="141" selection-end-column="97" />
+            <state relative-caret-position="209">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
-                <element signature="e#7019#7026#0" expanded="true" />
-                <element signature="e#7625#7632#0" expanded="true" />
+                <element signature="e#7223#7230#0" expanded="true" />
+                <element signature="e#7829#7836#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/static/layout/stylesheets/vendors.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/validation/Sku.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/services/exception/ObjetoJaExisteException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/EstiloRepository.java" />
@@ -180,10 +180,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/CervejaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasRepositoryQueries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/page/PageWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html" />
       </list>
     </option>
@@ -910,70 +911,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1746,7 +1683,7 @@
       <workItem from="1494939336409" duration="4952000" />
       <workItem from="1494974024973" duration="3239000" />
       <workItem from="1495027833514" duration="1459000" />
-      <workItem from="1495113496642" duration="2028000" />
+      <workItem from="1495113496642" duration="3144000" />
     </task>
     <task id="LOCAL-00001" summary="Crianção do Projeto.. Brewer..">
       <created>1471197215276</created>
@@ -1766,7 +1703,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189019000" />
+    <option name="totallyTimeSpent" value="190135000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1784,12 +1721,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28700906" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32605305" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22741432" sideWeight="0.50646204" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2265861" sideWeight="0.50646204" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32714054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22507553" sideWeight="0.49353796" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2010,14 +1948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/ServiceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -2185,16 +2115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -2243,13 +2163,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="43" column="90" selection-start-line="43" selection-start-column="90" selection-end-line="43" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="141" column="97" selection-start-line="141" selection-start-column="97" selection-end-line="141" selection-end-column="97" />
+        <state relative-caret-position="209">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
-            <element signature="e#7019#7026#0" expanded="true" />
-            <element signature="e#7625#7632#0" expanded="true" />
+            <element signature="e#7223#7230#0" expanded="true" />
+            <element signature="e#7829#7836#0" expanded="true" />
           </folding>
         </state>
       </provider>
