@@ -1,5 +1,6 @@
 package com.brewer.controller;
 
+import com.brewer.controller.page.PageWrapper;
 import com.brewer.model.Cerveja;
 import com.brewer.model.Origem;
 import com.brewer.model.Sabor;
@@ -19,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 @Controller
@@ -55,14 +57,14 @@ public class CervejasController {
 
     @GetMapping
     public ModelAndView pesquisar(CervejaFilter cervejaFilter, BindingResult bindingResult,
-                                  @PageableDefault(size = 2) Pageable pageable){
+                                  @PageableDefault(size = 2) Pageable pageable, HttpServletRequest request){
         ModelAndView mv = new ModelAndView("cerveja/PesquisaCervejas");
         mv.addObject("sabores", Sabor.values());
         mv.addObject("origens", Origem.values());
         mv.addObject("estilos", estiloRepository.findAll());
 
-        Page<Cerveja> pagina = cervejaRepository.filtra(cervejaFilter, pageable);
-        mv.addObject("pagina", pagina);
+        PageWrapper<Cerveja> pageWrapper = new PageWrapper<>(cervejaRepository.filtra(cervejaFilter, pageable),request);
+        mv.addObject("pagina", pageWrapper);
         return mv;
     }
 
