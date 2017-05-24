@@ -19,6 +19,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
 @Configuration
+@ComponentScan(basePackageClasses = CervejaRepository.class)
 @EnableJpaRepositories(basePackageClasses = CervejaRepository.class, enableDefaultTransactions = false)
 @EnableTransactionManagement
 public class JPAConfig {
