@@ -3,6 +3,7 @@ package com.brewer.config.init;
 import com.brewer.controller.CervejasController;
 import com.brewer.converter.EstiloConverter;
 import com.brewer.thymeleaf.processor.BrewerDialect;
+import com.github.mxab.thymeleaf.extras.dataattribute.dialect.DataAttributeDialect;
 import com.sun.corba.se.spi.resolver.LocalResolver;
 import nz.net.ultraq.thymeleaf.LayoutDialect;
 import org.springframework.beans.BeansException;
@@ -60,6 +61,7 @@ public class WebConfig extends WebMvcConfigurerAdapter implements ApplicationCon
         engine.setTemplateResolver(templateResolver());
         engine.addDialect(new LayoutDialect());
         engine.addDialect(new BrewerDialect());
+        engine.addDialect(new DataAttributeDialect());
         return engine;
     }
 

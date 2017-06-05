@@ -10,8 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="199af732-ce2d-4e54-9064-b97731bdbbf3" name="Default" comment="Criação do Entidade Cerveja.&#10;Configuração e Ativação do Jrebel no projeto&#10;Modifação da anotação @RequestMapping para @GetMapping da versão 4.3 do Spring.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/javascript/mascara-cpf-cnpj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mxab_thymeleaf_extras_thymeleaf_extras_data_attribute_2_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/model/TipoPessoa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/controller/ClienteController.class" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/com/brewer/controller/ClienteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/brewer/controller/ClienteController.class" afterPath="$PROJECT_DIR$/target/classes/com/brewer/controller/ClienteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Brewer.iml" afterPath="$PROJECT_DIR$/.idea/Brewer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Brewer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Brewer_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/brewer/controller/ClienteController.java" afterPath="$PROJECT_DIR$/src/main/java/com/brewer/controller/ClienteController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cliente/CadastroCliente.html" afterPath="$PROJECT_DIR$/target/Brewer-1.0-SNAPSHOT/WEB-INF/classes/templates/cliente/CadastroCliente.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/cliente/CadastroCliente.html" afterPath="$PROJECT_DIR$/target/classes/templates/cliente/CadastroCliente.html" />
@@ -50,7 +58,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="950">
               <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,28 +68,38 @@
       <file leaf-file-name="brewer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/javascript/brewer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="855">
               <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CadastroCliente.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CadastroCliente.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="62" column="69" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="69" />
+            <state relative-caret-position="171">
+              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mascara-cpf-cnpj.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/javascript/mascara-cpf-cnpj.js">
+      <file leaf-file-name="CadastroCerveja.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="1514">
+              <caret line="165" column="71" selection-start-line="164" selection-start-column="0" selection-end-line="165" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClienteController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/ClienteController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/services/EstiloService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/model/Estilo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/modal/EstiloModal.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/handler/ControllerAdviceExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/EstiloController.java" />
@@ -139,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/hbs/FotoCerveja.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/javascript/cerveja-upload-foto.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/style/brewer.css" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/services/CervejaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/services/event/CervejaSalvaEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/services/event/CervejaListener.java" />
@@ -152,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasQueries.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/CervejaRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/repository/helper/CervejasRepositoryQueries.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/CervejasController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brewer/thymeleaf/processor/BrewerDialect.java" />
@@ -165,8 +181,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/cerveja/PesquisaCervejas.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout/LayoutDefault.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/javascript/brewer.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/javascript/mascara-cpf-cnpj.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/model/TipoPessoa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/controller/ClienteController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html" />
       </list>
     </option>
   </component>
@@ -784,9 +804,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -881,37 +898,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brewer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -944,6 +931,9 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -967,13 +957,17 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="cada&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/cerveja/CadastroCerveja.html&#10;lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;bre&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/static/javascript/brewer.js&#10;Cerve&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;cadas&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/cliente/CadastroCliente.html&#10;cerveja&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java&#10;cerve&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/repository/filter/CervejaFilter.java&#10;web&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/WebConfig.java&#10;pom&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/pom.xml&#10;CERVE&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;FOTOS&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/controller/FotosController.java&#10;log&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/log4j2.xml&#10;Cer&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;App&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/AppInitializer.java&#10;Web&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/WebConfig.java&#10;Est&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;Estilo&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/repository/EstiloRepository.java&#10;Esti&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/services/EstiloService.java&#10;cer&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;brew&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/static/style/brewer.css&#10;Cerv&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;est&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;Orige&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Origem.java&#10;Lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;La&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;LAY&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html" />
+    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/WebConfig.java&#10;pom&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/pom.xml&#10;cada&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/cerveja/CadastroCerveja.html&#10;lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;bre&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/static/javascript/brewer.js&#10;Cerve&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;cadas&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/cliente/CadastroCliente.html&#10;cerveja&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/repository/helper/CervejaRepositoryImpl.java&#10;cerve&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/repository/filter/CervejaFilter.java&#10;CERVE&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;FOTOS&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/controller/FotosController.java&#10;log&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/log4j2.xml&#10;Cer&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;App&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/AppInitializer.java&#10;Web&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/config/init/WebConfig.java&#10;Est&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;Estilo&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/repository/EstiloRepository.java&#10;Esti&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/services/EstiloService.java&#10;cer&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;brew&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/static/style/brewer.css&#10;Cerv&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Cerveja.java&#10;est&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Estilo.java&#10;Orige&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/java/com/brewer/model/Origem.java&#10;Lay&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;La&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html&#10;LAY&#9;FILE&#9;file:///Users/Carlos/IdeaProjects/Brewer/src/main/resources/templates/layout/LayoutDefault.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/static/javascript" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.brewer.storage" />
+      <recent name="com.brewer.services.exception" />
+      <recent name="com.brewer.validation" />
+      <recent name="com.brewer.config.init" />
+      <recent name="com.brewer.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static/javascript/vendors" />
@@ -983,16 +977,12 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.brewer.services" />
       <recent name="com.brewer.model" />
+      <recent name="com.brewer.services" />
       <recent name="com.brewer.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.brewer.storage" />
-      <recent name="com.brewer.services.exception" />
-      <recent name="com.brewer.validation" />
-      <recent name="com.brewer.config.init" />
-      <recent name="com.brewer.model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/javascript" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Apache Tomcat">
@@ -1733,7 +1723,8 @@
       <workItem from="1496258002657" duration="800000" />
       <workItem from="1496270707901" duration="324000" />
       <workItem from="1496415089408" duration="129000" />
-      <workItem from="1496454644390" duration="3688000" />
+      <workItem from="1496454644390" duration="3916000" />
+      <workItem from="1496669459788" duration="4113000" />
     </task>
     <task id="LOCAL-00001" summary="Crianção do Projeto.. Brewer..">
       <created>1471197215276</created>
@@ -1753,7 +1744,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210507000" />
+    <option name="totallyTimeSpent" value="214848000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1766,14 +1757,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="732" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28657618" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32605305" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22624435" sideWeight="0.50646204" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32714054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22171946" sideWeight="0.49353796" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22171946" sideWeight="0.49353796" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1790,7 +1781,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28959277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32605305" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3286385" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.4939577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.4939577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2" sideWeight="0.5060423" order="5" side_tool="true" content_ui="tabs" />
@@ -1849,20 +1840,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/javascript/vendors/upload.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/javascript/estilo-cadastro-rapido.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/javascript/vendors/handlebars.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2094,13 +2071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/JPAConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -2161,38 +2131,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/javascript/brewer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="855">
           <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="165" column="71" selection-start-line="164" selection-start-column="0" selection-end-line="165" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="62" column="69" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -2201,14 +2149,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="8" column="475" selection-start-line="8" selection-start-column="475" selection-end-line="8" selection-end-column="475" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/javascript/mascara-cpf-cnpj.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="266">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/model/TipoPessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1469">
+          <caret line="55" column="96" selection-start-line="55" selection-start-column="96" selection-end-line="55" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/controller/ClienteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brewer/config/init/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cerveja/CadastroCerveja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1514">
+          <caret line="165" column="71" selection-start-line="164" selection-start-column="0" selection-end-line="165" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cliente/CadastroCliente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -2,6 +2,7 @@
 <html lang="pt" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:data="http://www.thymeleaf.org/extras/data"
       layout:decorate="'layout/LayoutDefault'">
 <head>
     <title>Brewer - Cadastro de cliente</title>
@@ -53,16 +54,15 @@
                 <div class="col-sm-4 form-group">
                     <label>Tipo Pessoa</label>
                     <div>
-                        <div class="radio radio-inline">
-                            <input id="fisica" type="radio" class="js-radio-tipo-pessoa" name="tipoPessoa"
-                                   data-documento="CPF" data-mascara="000.000.000-00">
-                            <label for="fisica">Física</label>
-                        </div>
-                        <div class="radio radio-inline">
-                            <input id="juridica" type="radio" class="js-radio-tipo-pessoa" name="tipoPessoa"
-                                   data-documento="CNPJ" data-mascara="00.000.000/0000-00">
-                            <label for="juridica">Jurídica</label>
-                        </div>
+                        <th:block th:each="tipoPessoa : ${tipoPessoas}">
+                            <div class="radio radio-inline">
+                                <input th:id="|id ${tipoPessoa}|" type="radio" class="js-radio-tipo-pessoa"
+                                       name="tipoPessoa" th:data-documento="${tipoPessoa.documento}"
+                                       th:data-mascara="${tipoPessoa.mascara}">
+                                <label class="control-label" th:for="|id ${tipoPessoa}|"
+                                       th:text="${tipoPessoa.descricao}">Física</label>
+                            </div>
+                        </th:block>
                     </div>
 
                 </div>
