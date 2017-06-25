@@ -3,7 +3,8 @@
       xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       xmlns:data="http://www.thymeleaf.org/extras/data"
-      layout:decorate="'layout/LayoutDefault'">
+      layout:decorate="layout/LayoutDefault"
+      xmlns:brewer="http://brewer.webapp.com">
 <head>
     <title>Brewer - Cadastro de cliente</title>
     <!--<link rel="stylesheet" type="text/css" href="/static/layout/stylesheets/vendors.min.css"/>-->
@@ -31,12 +32,6 @@
     </div>
 
     <div class="container-fluid">
-
-        <!--<div class="alert  alert-danger  alert-dismissible" role="alert">-->
-        <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close">-->
-        <!--<span aria-hidden="true">&times;</span></button>-->
-        <!--<i class="fa  fa-exclamation-circle"></i> Já existe um produto com o nome informado.-->
-        <!--</div>-->
 
         <form method="POST"  class="form-vertical  js-form-loading">
 
@@ -125,11 +120,14 @@
 
                 <div class="col-sm-4 form-group">
                     <label for="cidade">Cidade</label>
-                    <select id="cidade" class="form-control">
-                        <option value="">Selecione o cidade</option>
-                        <option value="1">Boa Vista</option>
-                        <option value="2">Manaus</option>
-                    </select>
+                    <div class="bw-field-action">
+                        <select id="cidade" class="form-control" data:url="@{/cidades}">
+
+                        </select>
+                        <div class="bw-field-action__icon js-img-loading" style="display: none;">
+                            <img th:src="@{/images/mini-loading.gif}"/>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -148,6 +146,7 @@
 
 <th:block layout:fragment="javascript-extras">
     <script th:src="@{/javascript/mascara-cpf-cnpj.js}"></script>
+    <script th:src="@{/javascript/cliente.combo-estado-cidade.js}"></script>
 </th:block>
 
 </body>
