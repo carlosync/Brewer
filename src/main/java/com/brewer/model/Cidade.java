@@ -9,6 +9,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "cidade")
 public class Cidade implements Serializable{
+    private static final long serialVersionUID = -354972066147544764L;
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long codigo;

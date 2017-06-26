@@ -10,6 +10,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "estilo")
 public class Estilo implements Serializable{
+    private static final long serialVersionUID = -9012869538296720984L;
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long codigo;

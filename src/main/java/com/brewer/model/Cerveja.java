@@ -6,12 +6,14 @@ import org.springframework.util.StringUtils;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Objects;
 
 @Entity
 @Table(name = "cerveja")
-public class Cerveja {
+public class Cerveja implements Serializable{
+    private static final long serialVersionUID = -8015732594386617393L;
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long codigo;
