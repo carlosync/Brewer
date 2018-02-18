@@ -2,12 +2,13 @@ package com.brewer.model;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
+import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import java.io.Serializable;
 
 @Embeddable
 public class Endereco implements Serializable {
-    private static final long serialVersionUID = -474909446221830905L;
+    private static final long serialVersionUID = 1L;
 
     private String logradouro;
     private String numero;
@@ -15,7 +16,7 @@ public class Endereco implements Serializable {
     private String cep;
 
     @ManyToOne
-    @Column(name = "codigo_cidade")
+    @JoinColumn(name = "codigo_cidade")
     private Cidade cidade;
 
     public String getLogradouro() {

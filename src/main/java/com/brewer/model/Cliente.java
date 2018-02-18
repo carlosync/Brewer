@@ -8,7 +8,7 @@ import java.util.Objects;
 @Table(name = "cliente")
 public class Cliente implements Serializable{
 
-    private static final long serialVersionUID = -2342342354568588236L;
+    private static final long serialVersionUID = 1L;
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long codigo;
