@@ -39,7 +39,7 @@
         <hibernate-validator.version>5.2.4.Final</hibernate-validator.version>
 
         <!-- Spring Data JPA -->
-        <spring-data-jpa.version>1.10.2.RELEASE</spring-data-jpa.version>
+        <spring-data-jpa.version>1.11.23.RELEASE</spring-data-jpa.version>
 
         <!-- Logging -->
         <log4j.version>2.6</log4j.version>
